@@ -53,7 +53,7 @@ const treat_all = () => {
         if (node) {
             node.setAttribute('data-rugithub-handled', 1);
             node.innerText = action_buttons[key];
-        }pp
+        }
     }
     for (const key in links) {
         let node;
