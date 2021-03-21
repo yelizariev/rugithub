@@ -1,0 +1,15 @@
+{
+    "name": "Github terms in Russian",
+    "description": "Get rid of anglicisms in daily work",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["*://github.com/*"],
+            "js": ["rugithub.js"]
+        }
+    ],
+    "icons": {
+        "128": "/images/128.png"
+    }
+}
